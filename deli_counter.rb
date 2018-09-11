@@ -7,7 +7,7 @@ def line(katz_deli)
         deli_line << " #{i + 1}. #{name}"
         puts "The line is currently:#{@deli_line.join}"
     end
-    
+
   else
     puts "The line is currently empty."
   end
