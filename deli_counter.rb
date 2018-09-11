@@ -21,5 +21,3 @@ def take_a_number(katz_deli, name)
     puts "It didn't work"
   end
 end
-
-
