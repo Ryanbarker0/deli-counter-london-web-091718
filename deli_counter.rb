@@ -17,9 +17,7 @@ def take_a_number(katz_deli, name)
     katz_deli << name
     i = katz_deli.index { |x| x == name }
     puts "Welcome, #{name}. You are number #{i + 1} in line."
-  else
-    katz_deli << name
-    i = katz_deli.index { |x| x == name }
-    puts "Welcome, #{name}. You are number #{i + 1} in line."
   end
 end
+
+
