@@ -17,7 +17,7 @@ katz_deli = []
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
     katz_deli.unshift(name)
-    i = katz_deli.index { |x| x + 1 == name }
+    i = katz_deli.index { |x| x == name }
     puts "Welcome, #{name}. You are number #{i + 1} in line."
   else
     puts "It didn't work"
