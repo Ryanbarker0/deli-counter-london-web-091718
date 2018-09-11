@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line
+def line(katz_deli)
   if katz_deli.length > 0
     return katz_deli
   else
