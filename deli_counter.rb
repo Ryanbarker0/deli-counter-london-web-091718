@@ -14,9 +14,9 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
-    katz_deli.push(name)
-  else
     katz_deli.unshift(name)
+    puts "Welcome, #{name}. You are number #{katz_deli.index { |x| x == name }} in line."
+  else
+    puts "It didn't work"
   end
-  katz_deli
 end
