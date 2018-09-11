@@ -18,6 +18,8 @@ def take_a_number(katz_deli, name)
     i = katz_deli.index { |x| x == name }
     puts "Welcome, #{name}. You are number #{i + 1} in line."
   else
-    puts "It didn't work"
+    katz_deli.unshift(name)
+    i = katz_deli.index { |x| x == name }
+    puts "Welcome, #{name}. You are number #{i + 1} in line."
   end
 end
