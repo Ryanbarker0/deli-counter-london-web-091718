@@ -12,8 +12,6 @@ def line(katz_deli)
   end
 end
 
-katz_deli = []
-
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
     katz_deli.unshift(name)
@@ -25,4 +23,3 @@ def take_a_number(katz_deli, name)
 end
 
 
-take_a_number(katz_deli, "Ryan")
